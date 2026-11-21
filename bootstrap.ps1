@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'
 $repo = 'https://github.com/<user>/dotfiles'
-$dest = "$env:USERPROFILE\dotfiles"   # 例: D:\Users\tkhatada\Repos\dotfiles
+$dest = "$env:USERPROFILE\dotfiles"
 
 if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
     winget install --id Git.Git -e --silent --accept-source-agreements --accept-package-agreements
