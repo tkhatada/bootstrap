@@ -1,5 +1,5 @@
 $ErrorActionPreference = 'Stop'
-$repo = 'https://github.com/<user>/dotfiles'
+$repo = 'https://gitlab.com/tkhatada/dotfiles'
 $dest = "$env:USERPROFILE\dotfiles"
 
 if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
